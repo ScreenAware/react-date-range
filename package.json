@@ -1,6 +1,6 @@
 {
   "name": "@screenaware/react-date-range",
-  "version": "1.0.1-alpha",
+  "version": "1.0.2-alpha",
   "description": "A React component for choosing dates and date ranges.",
   "main": "dist/index.js",
   "scripts": {
