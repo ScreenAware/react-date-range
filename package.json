@@ -1,6 +1,6 @@
 {
   "name": "@screenaware/react-date-range",
-  "version": "1.0.4-alpha",
+  "version": "1.0.6-alpha",
   "description": "A React component for choosing dates and date ranges.",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "build-library": "cross-env NODE_ENV=production babel ./src --out-dir ./dist --ignore test.js & cross-env NODE_ENV=production postcss 'src/styles.scss' -d dist --ext css & cross-env NODE_ENV=production postcss 'src/theme/*.scss' -d 'dist/theme' --ext css",
     "lint": "eslint 'src/**/*.js'",
     "test": "jest",
-    "preversion": "yarn clear & yarn build"
+    "preversion": "yarn run test & yarn run lint & yarn clear & yarn build"
   },
   "keywords": [
     "react",
