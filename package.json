@@ -1,6 +1,6 @@
 {
   "name": "@screenaware/react-date-range",
-  "version": "1.0.2-alpha",
+  "version": "1.0.3-alpha",
   "description": "A React component for choosing dates and date ranges.",
   "main": "dist/index.js",
   "scripts": {
@@ -28,10 +28,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/Adphorus/react-date-range"
+    "url": "http://github.com/ScreenAware/react-date-range"
   },
   "bugs": {
-    "url": "http://github.com/Adphorus/react-date-range/issues"
+    "url": "http://github.com/ScreenAware/react-date-range/issues"
   },
   "dependencies": {
     "classnames": "^2.2.1",
